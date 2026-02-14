@@ -1,0 +1,275 @@
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v24-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v24-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v24-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v44-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/open-sans-v44-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v44-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v44-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  height: 100vh;
+}
+
+.navbar {
+  width: 1346px;
+  display: flex;
+  padding-top: 34px;
+  margin-bottom: 94px;
+}
+
+.header-btn {
+  width: 97px;
+  height: 32px;
+  border-radius: 15px 0px 15px 0px;
+  background-color: rgba(202, 168, 146, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-left: 60px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0%;
+  margin-left: auto;
+}
+
+/* hero part */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 44px;
+  margin-bottom: 119px;
+}
+
+.hero-first {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-mini {
+  color: rgba(100, 100, 100, 1);
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+
+.hero-title {
+  color: rgba(33, 33, 33, 1);
+  font-family: Poppins;
+  font-size: 72px;
+  line-height: 78px;
+  letter-spacing: 0%;
+  margin-bottom: 23px;
+}
+
+.hero-text {
+  width: 603px;
+  height: 90px;
+  color: rgba(100, 100, 100, 1);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin-bottom: 28px;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 142.15px;
+  height: 42px;
+  border-radius: 20px 0px 20px 0px;
+  background-color: rgba(55, 128, 107, 1);
+
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+}
+
+.hero-second {
+  width: 717px;
+  height: 626px;
+  border: 2px solid rgba(176, 133, 91, 1);
+  border-radius: 140px 0px 140px 0px;
+}
+
+/* service part */
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-mini {
+  color: rgba(100, 100, 100, 1);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -1%;
+}
+
+.service-title {
+  color: rgba(33, 33, 33, 1);
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78px;
+  letter-spacing: 0%;
+  margin-bottom: 46px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 37px;
+}
+
+.service-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 20px;
+  width: 425px;
+  padding: 40px 22px 35px 37px;
+  border-radius: 60px 0px 60px 0px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+  background: rgba(255, 255, 255, 1);
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.card-title {
+  color: rgba(33, 33, 33, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+
+.card-text {
+  width: 306px;
+  color: rgba(100, 100, 100, 1);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -1%;
+}
+
+.card2 {
+  background-color: #caa892;
+}
+
+/* main */
+main {
+  flex-grow: 1;
+  background-color: #f8f8f8;
+}
+
+/* footer */
